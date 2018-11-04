@@ -39,13 +39,13 @@ ul{
  /* display: none; */
  opacity: 0;
 }
-img{
+/* img{
     transition: opacity 1s linear;
     opacity: 1;
     width:  100%;
     height: 300px;    
     margin: 0 auto;
-}
+} */
 
 .btn{
     position: absolute;
@@ -137,5 +137,157 @@ img{
 .hm-header{
     background-color: #C0C0C0;
 }
+.nm-nav{
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #e0e0e0;
+
+}
+.hm-nav>ul{
+    width: 100%;
+    padding: 10px 0;
+
+}
+.hm-nav>ul>li{
+    width: 25%;
+    float: left;
+
+}
+.hm-nav>ul>li>a{
+    display: block;
+}
+.hm-nav>ul>li>a>img{
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+
+}
+.hm-nav>ul>li>a>p{
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+    padding: 6px 0;
+}
+.hm-product{
+    padding: 0 5px;
+
+}
+.hm-product>.product-box{
+    width: 100%;
+    background: #fff;
+    margin-top: 10px;
+    box-shadow:  0 0 1px #e0e0e0;
+
+}
+.hm-product>.product-box>.product-box-tit{
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.hm-product>.product-box>.product-box-tit.no-border{
+    border-bottom: none;
+}
+.hm-product>.product-box>.product-box-tit>h3{
+    font-weight: normal;
+    font-size: 15px;
+    padding-left: 20px;
+    position: relative;
+    color: #666;
+}
+.hm-product>.product-box>.product-box-tit>h3::before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 3px;
+    height: 12px;
+    background: #dd8855;
+
+}
+.hm-sk{}
+.hm-sk .sk-icon{
+    background: url("asd/高跟鞋.png")no-repeat;
+    background-size: 16px 20px;
+    width: 16px;
+    height: 20px;
+    float: left;;
+    margin-top: 6px;
+}
+.hm-sk .hm-sk-name{
+    color: #dd8855;
+    font-size: 15px;
+    float: left;
+}
+.hm-sk.sk-time{
+    float: left;
+    margin-top: 8px;
+}
+.hm-sk.sk-time>span{
+    float: left;
+    width: 15px;
+    height: 15px;
+ line-height: 15px;
+ text-align: center;
+ background: #333;
+ color: #fff;
+ margin-left: 3px;
+}
+.hm-sk.sk-time>span:nth-child(3n){
+    background: #fff;
+    color: #333;
+    width: 5px;
+}
+.hm-sk .product-box-con>ul{
+     width: 33.333%;
+     float: left;
+     text-align: center;    
+}
+.hm-sk.product-box-con>ul>li>a{
+    display: block;
+    width: 100%;
+    border-right: 1px solid #e0e0e0;
+
+}
+.hm-sk.product-box-con>ul>li:last-child>a{
+    border-right: 0;
+
+}
+.hm-sk.product-box-con>ul>li>a>img{
+    width: 64%;
+    display: block;
+    margin: 0 auto;
+
+}
+.hm-sk.product-box-con>ul>li>p:first-of-type{
+    color: #dd8855;
+    padding: -5px;;
+
+}
+/* .w-50{
+    width: 50%;
+    display: block;
+}
+.w-50>img{
+    display: block;
+    width: 100%;
+
+}
+.b-left{
+    border-left: 1px solid #dd8855;
+
+}
+.b-right{
+border-right: 1px solid #e0e0e0;
+}
+.b-bottom{
+    border-bottom: 1px solid #666;
+} */
+
+
+
+
+
+
 
 
